@@ -975,6 +975,7 @@ body {
 .content{
   margin-top: 10vh;
 }
+
 .leucosite{
   font-size: 30px;
   font-weight: bold;
@@ -982,10 +983,12 @@ body {
   max-height: 60vh;
   min-height: 40vh;
   text-align: center;
+  text-decoration: none;
   background-color: rgb(0, 86, 129, 0.8);
   color: #fff;
   border-style: solid;
   border-color: #fff;
+
 }
 .leucosite:hover{
   background-color: rgb(0, 86, 129, 1);
@@ -1001,6 +1004,7 @@ body {
   max-height: 60vh;
   min-height: 40vh;
   text-align: center;
+  text-decoration: none;
   background-color: rgb(200, 0, 0, 0.8);
   color: #ffffff;
   border-style: solid;
@@ -1020,6 +1024,7 @@ body {
   max-height: 60vh;
   min-height: 40vh;
   text-align: center;
+  text-decoration: none;
   background-color: rgb(33, 200, 0, 0.8);
   color: #ffffff;
   border-style: solid;
@@ -1040,6 +1045,7 @@ body {
   max-height: 60vh;
   min-height: 40vh;
   text-align: center;
+  text-decoration: none;
   background-color: rgb(243, 219, 0, 0.8);
   color: #fff;
   border-style: solid;

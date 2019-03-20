@@ -1,4 +1,5 @@
-.eritrocite{
+.card{
+  background-color: $gray;
   font-size: 30px;
   font-weight: bold;
   padding-top: 15vh;
@@ -6,78 +7,59 @@
   min-height: 40vh;
   text-align: center;
   text-decoration: none;
-  background-color: $eritrocite;
-  color: $main_text_c;
   border-style: solid;
-  border-color: #fff;
-}
-.eritrocite:hover{
-  background-color: $eritrocite_hover;
-  border: 3px solid $eritrocite_border_hover;
-  border-radius: 3px;
-  font-size: 40px;
-}
+  border-color: $white;
+  color: $white;
+
+  &.eritrocite{
+    background-color: lighten($red, $light);
+    &:hover{
+      background-color: $red;
+      border: 3px solid $red;
+      border-radius: 3px;
+      font-size: 40px;
+    }
+  }
 
 
-.leucosite{
-  font-size: 30px;
-  font-weight: bold;
-  padding-top: 15vh;
-  max-height: 60vh;
-  min-height: 40vh;
-  text-align: center;
-  text-decoration: none;
-  background-color: $leucosite;
-  color: $main_text_c;
-  border-style: solid;
-  border-color: #fff;
+  &.leucosite{
+    background-color: lighten($blue, $light);
+    color: $white;
+    border-style: solid;
+    border-color: $white;
+    &:hover{
+      background-color: $blue;
+      border: 3px solid $blue;
+      border-radius: 3px;
+      font-size: 40px;
+    }
+  }
 
-}
-.leucosite:hover{
-  background-color: $leucosite_hover;
-  border: 3px solid $leucosite_border_hover;
-  border-radius: 3px;
-  font-size: 40px;
-}
+  &.platelets{
+    background-color: lighten($green, $light);
+    color: $white;
+    border-style: solid;
+    border-color: #fff;
+    &:hover{
+      background-color: $green;
+      border: 3px solid $green;
+      border-radius: 3px;
+      color: #ffffff;
+      font-size: 40px;
+    }
+  }
 
-.platelets{
-  font-size: 30px;
-  font-weight: bold;
-  padding-top: 15vh;
-  max-height: 60vh;
-  min-height: 40vh;
-  text-align: center;
-  text-decoration: none;
-  background-color: rgb(33, 200, 0);
-  color: #ffffff;
-  border-style: solid;
-  border-color: #fff;
-}
-.platelets:hover{
-  background-color: rgb(33, 200, 0);
-  border: 3px solid rgb(255, 0, 39);
-  border-radius: 3px;
-  color: #ffffff;
-  font-size: 40px;
-}
-
-.plasma{
-  font-size: 30px;
-  font-weight: bold;
-  padding-top: 15vh;
-  max-height: 60vh;
-  min-height: 40vh;
-  text-align: center;
-  text-decoration: none;
-  background-color: rgb(243, 219, 0);
-  color: #fff;
-  border-style: solid;
-  border-color: #fff;
-  min-height: 50%;
-}
-.plasma:hover{
-  background-color: rgb(255, 230, 0);
-  border: 3px solid rgb(255, 0, 39);
-  border-radius: 3px;
-  font-size: 40px;
+  &.plasma{
+    background-color: lighten($yellow, $light-poor);
+    color: $white;
+    border-style: solid;
+    border-color: #fff;
+    min-height: 50%;
+    &:hover{
+      background-color: $yellow;
+      border: 3px solid $yellow;
+      border-radius: 3px;
+      font-size: 40px;
+    }
+  }
 }
